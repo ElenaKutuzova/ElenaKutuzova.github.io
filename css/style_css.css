@@ -1,0 +1,15 @@
+body{
+    background-color: darkgrey;
+}
+header{
+    background-color: rgb(216, 171, 156);
+}
+main{
+    background-color: rgb(228, 182, 205);
+}
+aside{
+    background-color: rgb(221, 199, 236);
+}
+footer{
+    background-color: rgb(208, 235, 181);
+}
