@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация на коференцию</title>
+</head>
+
+<body>
+    <header>
+        <h1>Вэб-технологии</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Авторизация</a></li>
+            <li><a href="#">Фотография</a></li>
+            <li><a href="#">Сообщение</a></li>
+            <li><a href="#">Верстка по макету</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Регистрация на коференцию</h2>
+        <form action="" method="post">
+            <div> <label for="username">Фамилия Имя Отчество</label>
+                <input type="text" name="username" id="username" required placeholder="Иванов Иван Иванович">
+            </div>
+
+            <div> <label for="tel">Контактный телефон</label>
+                <input type="tel" name="tel" id="tel" required placeholder="+7 999 99 99">
+            </div>
+
+            <div> <label for="email">Адрес электронной почты</label>
+                <input type="email" name="email" id="email" required placeholder="example@mail.ru">
+            </div>
+            <div><label for="section">Выберите секцию конференции</label><br>
+                <select name="section" id="section">
+                    <option value="mat">математика</option>
+                    <option value="fiz">физика</option>
+                    <option value="inf">информатика</option>
+                </select>
+            </div>
+            <div>
+                <label for="speak">Участие с докладом</label>
+                <input type="checkbox" name="speak" id="speak">
+            </div>
+            <div>
+                <label for="report">Введите тему доклада</label><br>
+                <textarea name="report" id="report" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <div> Выберите тип участия</div>
+                <form action="">
+                    <input type="radio" checked name="edutype" id="offline">
+                    <label for="offline">Очная форма</label><br>
+                    <input type="radio" name="edutype" id="online">
+                    <label for="online">Дистанционная форма</label><br>
+                    <input type="radio" name="edutype" id="online_offline">
+                    <label for="online_offline">Смешаная форма</label>
+                </form>
+            </div>
+            <div>
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+        </form>
+    </main>
+    <aside>
+        это боковая панель
+    </aside>
+    <footer>
+        <h3>2021-2022 учебный год</h3>
+    </footer>
+</body>
+
+</html>
