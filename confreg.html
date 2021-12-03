@@ -23,52 +23,57 @@
     </nav>
     <main>
         <h2 class="form_reg">Регистрация на конференцию</h2>
-        <form action="" method="post">
+        <form class="form" action="" method="post">
             <div>
-                <label for="username">Фамилия Имя Отчество</label>
-                <input class="input_text" type="text" name="username" id="username" required
-                    placeholder="Иванов Иван Иванович" pattern="[А-Яа-я]+[ ][А-Яа-я]+[ ][А-Яа-я]+">
-            </div>
+                <div>
+                    <label for="username">Фамилия Имя Отчество</label>
+                    <input class="input_text" type="text" name="username" id="username" required
+                        placeholder="Иванов Иван Иванович" pattern="[А-Яа-я]+[ ][А-Яа-я]+[ ][А-Яа-я]+">
+                </div>
 
-            <div>
-                <label for="tel">Контактный телефон</label>
-                <input class="input_text" type="tel" name="tel" id="tel" placeholder=" +7 999 99 99"
-                    pattern="+7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
-            </div>
+                <div>
+                    <label for="tel">Контактный телефон</label>
+                    <input class="input_text" type="tel" name="tel" id="tel" placeholder=" +7 999 99 99"
+                        pattern="+7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                </div>
 
-            <div>
-                <label for="email">Адрес электронной почты</label>
-                <input class="input_text" type="email" name="email" id="email" required placeholder="example@mail.ru">
+                <div>
+                    <label for="email">Адрес электронной почты</label>
+                    <input class="input_text" type="email" name="email" id="email" required
+                        placeholder="example@mail.ru">
+                </div>
             </div>
             <div>
-                <label for="section">Выберите секцию конференции</label><br>
-                <select name="section" id="section">
-                    <option value="mat">математика</option>
-                    <option value="fiz">физика</option>
-                    <option value="inf">информатика</option>
-                </select>
-            </div>
-            <div>
-                <label for="speak">Участие с докладом</label>
-                <input type="checkbox" name="speak" id="speak">
-            </div>
-            <div>
-                <label for="report">Введите тему доклада</label><br>
-                <textarea name="report" id="report" cols="70" rows="10"></textarea>
-            </div>
-            <div>
-                <div> Выберите тип участия</div>
-                <form action="">
-                    <input type="radio" checked name="edutype" id="offline">
-                    <label for="offline">Очная форма</label><br>
-                    <input type="radio" name="edutype" id="online">
-                    <label for="online">Дистанционная форма</label><br>
-                    <input type="radio" name="edutype" id="online_offline">
-                    <label for="online_offline">Смешаная форма</label>
-                </form>
-            </div>
-            <div>
-                <input class="button" type="submit" value="Зарегистрироваться">
+                <div>
+                    <label for="section">Выберите секцию конференции</label><br>
+                    <select name="section" id="section">
+                        <option value="mat">математика</option>
+                        <option value="fiz">физика</option>
+                        <option value="inf">информатика</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="speak">Участие с докладом</label>
+                    <input type="checkbox" name="speak" id="speak">
+                </div>
+                <div>
+                    <label for="report">Введите тему доклада</label><br>
+                    <textarea name="report" id="report" cols="70" rows="10"></textarea>
+                </div>
+                <div>
+                    <div> Выберите тип участия</div>
+                    <form action="">
+                        <input type="radio" checked name="edutype" id="offline">
+                        <label for="offline">Очная форма</label><br>
+                        <input type="radio" name="edutype" id="online">
+                        <label for="online">Дистанционная форма</label><br>
+                        <input type="radio" name="edutype" id="online_offline">
+                        <label for="online_offline">Смешаная форма</label>
+                    </form>
+                </div>
+                <div>
+                    <input class="button" type="submit" value="Зарегистрироваться">
+                </div>
             </div>
         </form>
     </main>
