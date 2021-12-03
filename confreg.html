@@ -6,39 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация на конференцию</title>
-    <link rel="stylesheet" href="../css/style_css.css">
+    <link rel="stylesheet" href="css/style_css.css">
 </head>
 
 <body>
     <header>
-        <h1>Вэб-технологии</h1>
+        <h1 class="header">Вэб-технологии</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="#">Авторизация</a></li>
-            <li><a href="#">Фотография</a></li>
-            <li><a href="#">Сообщение</a></li>
-            <li><a href="#">Верстка по макету</a></li>
+        <ul class="navigator">
+            <li><a href="#" class="text_nav">Авторизация</a></li>
+            <li><a href="#" class="text_nav">Фотография</a></li>
+            <li><a href="#" class="text_nav">Сообщение</a></li>
+            <li><a href="#" class="text_nav">Верстка по макету</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Регистрация на конференцию</h2>
+        <h2 class="form_reg">Регистрация на конференцию</h2>
         <form action="" method="post">
             <div>
                 <label for="username">Фамилия Имя Отчество</label>
-                <input type="text" name="username" id="username" required placeholder="Иванов Иван Иванович"
-                    pattern="[А-Яа-я]+[ ][А-Яа-я]+[ ][А-Яа-я]+">
+                <input class="input_text" type="text" name="username" id="username" required
+                    placeholder="Иванов Иван Иванович" pattern="[А-Яа-я]+[ ][А-Яа-я]+[ ][А-Яа-я]+">
             </div>
 
             <div>
                 <label for="tel">Контактный телефон</label>
-                <input type="tel" name="tel" id="tel" placeholder=" +7 999 99 99"
+                <input class="input_text" type="tel" name="tel" id="tel" placeholder=" +7 999 99 99"
                     pattern="+7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
             </div>
 
             <div>
                 <label for="email">Адрес электронной почты</label>
-                <input type="email" name="email" id="email" required placeholder="example@mail.ru">
+                <input class="input_text" type="email" name="email" id="email" required placeholder="example@mail.ru">
             </div>
             <div>
                 <label for="section">Выберите секцию конференции</label><br>
@@ -54,7 +54,7 @@
             </div>
             <div>
                 <label for="report">Введите тему доклада</label><br>
-                <textarea name="report" id="report" cols="30" rows="10"></textarea>
+                <textarea name="report" id="report" cols="70" rows="10"></textarea>
             </div>
             <div>
                 <div> Выберите тип участия</div>
@@ -68,7 +68,7 @@
                 </form>
             </div>
             <div>
-                <input type="submit" value="Зарегистрироваться">
+                <input class="button" type="submit" value="Зарегистрироваться">
             </div>
         </form>
     </main>

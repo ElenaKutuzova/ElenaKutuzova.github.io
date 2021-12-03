@@ -1,21 +1,53 @@
 body{
-    background-color: darkgrey;
+    color: #1F3F68;
 }
-header{
-    background-color: rgb(216, 171, 156);
-}
-main{
-    background-color: rgb(228, 182, 205);
-}
-aside{
-    background-color: rgb(221, 199, 236);
-}
-footer{
-    background-color: rgb(208, 235, 181);
-}
-input:invalid {
-    border: 2px dashed red;
-  }
- div{
+
+div{
 padding: 16px;
+}
+.header{
+font-family: Roboto;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: 74px;
+letter-spacing: 0.04em;
+text-align: left;
  }
+.navigator{
+display: flex;
+justify-content: space-around;
+list-style: none;
+text-decoration-line:  none;
+}
+.text_nav{
+    text-decoration-line:  none;
+    text-transform: uppercase;
+    color: #1F3F68;
+    border: 1px solid slategrey;
+    padding: 10px 15px;
+    border-radius: 5px ;
+}
+.form_reg{
+text-transform: uppercase;
+padding: 20px 20%;
+}
+.input_text{
+    border: 1px solid #356EAD;
+    width: 480px;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 0.4;
+    margin-top: 5px;
+}
+#report{
+    border: 1px solid #356EAD;
+    border-radius: 10px; 
+    opacity: 0.4;
+    margin-top: 5px;
+}
+.button{
+    border: 1px solid #356EAD;
+    border-radius: 5px; 
+    padding: 10px 20px;
+}
