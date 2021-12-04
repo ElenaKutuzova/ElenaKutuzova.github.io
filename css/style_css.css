@@ -59,3 +59,10 @@ main{
     background: linear-gradient(
 0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
+#section{
+    padding: 5px 15px;
+    border: 1px solid #356EAD;
+    border-radius: 5px; 
+    margin-top: 5px;
+
+}
