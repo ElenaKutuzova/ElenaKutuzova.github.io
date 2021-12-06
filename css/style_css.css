@@ -66,5 +66,11 @@ main{
     border: 1px solid #356EAD;
     border-radius: 5px; 
     margin-top: 5px;
-
+}
+.checked .toggle {
+    display:none;
+}
+.checked input[type=checkbox]:checked ~ .toggle
+{
+    display:block;
 }

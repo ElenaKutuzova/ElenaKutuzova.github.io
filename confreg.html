@@ -52,29 +52,30 @@
                         <option value="inf">информатика</option>
                     </select>
                 </div>
-                <div>
+                <div class="checked">
                     <label for="speak">Участие с докладом</label>
                     <input type="checkbox" name="speak" id="speak">
+                    <div class="toggle">
+                        <label for="report">Введите тему доклада</label><br>
+                        <textarea name="report" id="report" cols="70" rows="10"></textarea>
+                    </div>
                 </div>
                 <div>
-                    <label for="report">Введите тему доклада</label><br>
-                    <textarea name="report" id="report" cols="70" rows="10"></textarea>
+                    <div>
+                        <div> Выберите тип участия</div>
+                        <form action="">
+                            <input type="radio" checked name="edutype" id="offline">
+                            <label for="offline">Очная форма</label><br>
+                            <input type="radio" name="edutype" id="online">
+                            <label for="online">Дистанционная форма</label><br>
+                            <input type="radio" name="edutype" id="online_offline">
+                            <label for="online_offline">Смешаная форма</label>
+                        </form>
+                    </div>
+                    <div>
+                        <input class="button" type="submit" value="Зарегистрироваться">
+                    </div>
                 </div>
-                <div>
-                    <div> Выберите тип участия</div>
-                    <form action="">
-                        <input type="radio" checked name="edutype" id="offline">
-                        <label for="offline">Очная форма</label><br>
-                        <input type="radio" name="edutype" id="online">
-                        <label for="online">Дистанционная форма</label><br>
-                        <input type="radio" name="edutype" id="online_offline">
-                        <label for="online_offline">Смешаная форма</label>
-                    </form>
-                </div>
-                <div>
-                    <input class="button" type="submit" value="Зарегистрироваться">
-                </div>
-            </div>
         </form>
     </main>
     <aside>
