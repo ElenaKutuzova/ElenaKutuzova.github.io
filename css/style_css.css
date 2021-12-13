@@ -6,6 +6,10 @@ body{
 div{
     padding: 16px;
     }
+header{
+    display: flex;
+    flex-direction: column ;
+}    
 .header{
 font-size: 64px;
 font-style: normal;
@@ -13,6 +17,10 @@ font-weight: 300;
 line-height: 74px;
 letter-spacing: 0.04em;
 text-align: center;
+ }
+ .logo{
+    align-self: center;
+    margin-bottom: 30px;
  }
 .navigator{
 display: flex;
@@ -55,7 +63,13 @@ margin-top: 50px;
 }
 .form{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.form_part1{
+    flex-grow: 1;
+}
+.form_part2{
+    flex-grow: 1;
 }
 main{
     background: linear-gradient(
