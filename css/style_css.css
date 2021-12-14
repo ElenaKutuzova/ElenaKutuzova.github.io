@@ -9,6 +9,10 @@ div{
 header{
     display: flex;
     flex-direction: column ;
+    background: url(../img/background-g8d03bed2a_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }    
 .header{
 font-size: 64px;
@@ -28,6 +32,9 @@ justify-content: space-around;
 list-style: none;
 text-decoration-line:  none;
 }
+nav{
+    margin-top: 40px;;
+}
 .text_nav{
     text-decoration-line:  none;
     text-transform: uppercase;
@@ -35,6 +42,11 @@ text-decoration-line:  none;
     border: 1px solid slategrey;
     padding: 10px 15px;
     border-radius: 5px ;
+    background-color: rgb(207, 211, 230);
+    margin-top: 60px;
+}
+.text_nav:hover{
+    text-decoration-line:underline
 }
 .form_reg{
 text-transform: uppercase;
@@ -61,6 +73,10 @@ margin-top: 50px;
     padding: 10px 20px;
     background-color: rgb(159, 199, 240);
 }
+.button:hover{
+    background-color: rgb(7, 87, 87);
+    color: floralwhite;
+}
 .form{
     display: flex;
     justify-content: space-around;
@@ -72,14 +88,28 @@ margin-top: 50px;
     flex-grow: 1;
 }
 main{
-    background: linear-gradient(
-0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background: url(../img/pastel-g519ce2292_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    
+}
+.main{
+    
+    text-align: center;
+    background: url(img/pastel-g519ce2292_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 #section{
     padding: 5px 15px;
     border: 1px solid #356EAD;
     border-radius: 5px; 
     margin-top: 5px;
+}
+.checkbox{
+    border: 1px solid #356EAD;   
 }
 .checked .toggle {
     display:none;
