@@ -75,6 +75,9 @@ margin-top: 50px;
     opacity: 0.4;
     margin-top: 5px;    
 }
+.itog{
+    margin-bottom: 30px;
+}
 .textarea{
     max-width: 480px;
     min-width: 280px;
